@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- .NET 10 LTS. If you only have .NET 8 installed, change this to net8.0-windows (no code changes needed). -->
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>LinuxDiscovery</AssemblyName>
+    <RootNamespace>LinuxDiscovery</RootNamespace>
+    <!-- requireAdministrator: Windows shows the UAC prompt at launch (also on double-click). -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="LinuxDiscovery.Tests" />
+  </ItemGroup>
+
+</Project>

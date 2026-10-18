@@ -1,0 +1,2 @@
+D:\Program Files\workspace\BetaJet\LinuxDiscovery\publish\LinuxDiscovery.pdb
+D:\Program Files\workspace\BetaJet\LinuxDiscovery\publish\LinuxDiscovery.exe
